@@ -1,0 +1,134 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../Montserrat-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+body{
+    background: #1D1D1B;
+}
+div#root{
+    width: 100%;
+    max-width: 100%;
+}
+/*#############################################################           Clases generales / Contenedores*/
+.box-container1{ 
+    padding: 16px;
+    border-radius: 16px;
+    gap: 16px;
+    margin-bottom: 8px;
+}
+
+.box-container2DARK{  
+    padding: 8px 16px;
+    border-radius: 22px;
+    background: #32322F;
+    height: 40px;
+}
+.box-container2{  
+    padding: 8px 16px;
+    border-radius: 22px;
+    background: #FFFFFF33;
+    height: 40px;
+}
+.box-container2 p{  
+    font-weight: 700;
+    color: #E4E4E3;
+    margin: auto;
+}
+
+.box-container3{  
+    padding: 8px 16px;
+    border-radius: 22px;
+    background: transparent;
+    height: 40px;
+    cursor: pointer;
+}
+.box-container3:hover{
+    background: #333331;
+}
+.box-container3 p{  
+    font-size: 16px;
+}
+.box-container4{  
+    padding: 3px 5px;
+    border-radius: 22px;
+    background: #FFFFFF26;
+    height: fit-content;
+}
+.box-container4DARK{  
+    padding: 3px 5px;
+    border-radius: 22px;
+    height: fit-content;
+}
+.box-container4DARK:hover{  
+    background: #333331;
+}
+.options-container{
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    background: transparent;
+}
+.options-container:hover{
+    cursor: pointer;
+    background: #FFFFFF26;
+}
+.Live-container{
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 33px;
+    background: #E72458;
+    position: absolute;
+    top: 12px; /* Asegura que la imagen se alinee en la parte superior */
+    right: 12px;
+    z-index: 100;
+    padding: 5px 12px;
+}
+.Live-container p{
+    font-size: 12px;
+} 
+/*#############################################################           Clases generales / Elementos*/
+
+img{
+    cursor: pointer;
+}
+p{
+    color: #E4E4E3;
+    font-weight: 500;       
+    font-size: 16px;
+}
+h1{
+    color: #E4E4E3;
+    font-weight: 700;
+    font-size: 20px;
+}
+h2{
+    color: #E4E4E3;
+    font-weight: 700;
+    font-size: 14px;
+}
+.flex-div{
+    display: flex;
+    align-items: center ;
+}
+.flex-col{
+    display: flex; 
+    flex-direction: column; 
+}
+input{
+background: transparent;
+  border: 0;
+  outline: 0;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+}
+

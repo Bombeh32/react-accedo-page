@@ -1,0 +1,40 @@
+.Footer{
+    height: 275px;
+    padding-top: 58px;
+    padding-bottom: 58px;
+}
+.Footer .logo img{
+    height: 40px;
+    margin: auto;
+    cursor: default;
+}
+.footer-options{
+    gap: 8px;
+    justify-content: center;
+    margin-top: 48px;
+}
+.footer-options div{
+    cursor: pointer;  
+}
+.footer-options div p{
+    font-size: 13px;
+}
+.Footer .social-media{
+    margin-top: 8px;
+    justify-content: center;
+    gap: 16px;  
+}
+.Footer .social-media div{
+    background: #32322F;
+    border-radius: 100px;
+    padding: 8px;    
+}
+.Footer .social-media div:hover{
+    background: #FFFFFF26;
+    cursor: pointer; 
+}
+.Footer .social-media div img{
+    width: 16px;
+    height: 16px;
+    
+}

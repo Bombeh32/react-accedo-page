@@ -1,0 +1,6 @@
+<svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M9.167,9L34.833,9L34.833,5L9.167,5L9.167,9ZM34.833,9C35.754,9 36.5,9.746 36.5,10.667L40.5,10.667C40.5,7.537 37.963,5 34.833,5L34.833,9ZM36.5,10.667L36.5,36.333L40.5,36.333L40.5,10.667L36.5,10.667ZM36.5,36.333C36.5,37.254 35.754,38 34.833,38L34.833,42C37.963,42 40.5,39.463 40.5,36.333L36.5,36.333ZM34.833,38L9.167,38L9.167,42L34.833,42L34.833,38ZM9.167,38C8.246,38 7.5,37.254 7.5,36.333L3.5,36.333C3.5,39.463 6.037,42 9.167,42L9.167,38ZM7.5,36.333L7.5,10.667L3.5,10.667L3.5,36.333L7.5,36.333ZM7.5,10.667C7.5,9.746 8.246,9 9.167,9L9.167,5C6.037,5 3.5,7.537 3.5,10.667L7.5,10.667Z" fill="#FFFFFF"/>
+<line x1="27.336" y1="3.334" x2="27.336" y2="10.667" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.999327" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="12.664" y1="3.334" x2="12.664" y2="10.667" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.999327" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="5.5" y1="16" x2="38.5" y2="16" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="3.999327" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,75 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../Montserrat-VariableFont_wght.ttf);
+}
+
+nav{
+  padding: 10px 2%;
+  justify-content: space-between;
+  background: #1D1D1B;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  max-height: 72px;
+}
+.nav-middle .search-box{
+  background: #393936;
+  border-radius: 33px;
+  gap: 3px;
+  padding: 8px 16px;
+}
+.nav-middle .search-box input{
+  max-width: 410px;
+}
+.nav-middle .search-box input::placeholder{
+  font-size: 16px;
+  font-weight: 500;
+  color: #84837D;
+  font-family: Montserrat;
+}
+.nav-middle .search-box:hover {
+  box-shadow: 0px 0px 4px 4px #1ED760;
+}
+.nav-right {
+  gap: 16px;
+}
+.img-notf{
+  gap: 16px;
+}
+.img-notf-bubble{
+  width: 40px;
+  padding: 8px;
+  border-radius: 100px;
+  background: #FFFFFF26;
+  cursor: pointer;
+}
+.img-notf-bubble img{
+  width: 24px;
+}
+.user-icon{
+  width: 40px;
+}
+.nav-left{
+  gap: 48px;
+}
+.nav-left div div p{
+  font-size: 14px;
+}
+.NavButtons div{
+  cursor: pointer;
+  background: transparent;
+  padding: 8px 16px;
+  border: 0;
+  outline: 0;
+  height: 40px;
+  border-radius: 22px;
+}
+.NavButtons div p{
+  color: #E4E4E3;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+}
+.NavButtons div:hover{
+  background: #FFFFFF1A;
+}

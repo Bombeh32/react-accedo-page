@@ -1,0 +1,207 @@
+/*#############################################################           Fondo Blur*/
+.PrincipalContainer{
+    position: relative;
+    width: 100%;
+    height: fit-content; /* Altura de ejemplo */
+    background-color: transparent; /* Color de fondo del contenedor principal */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PrincipalContainer .Content{
+    position: relative!important;
+    z-index: 1;
+}
+.PrincipalContainer .fondo-blur {
+    position: absolute;
+    top: -170px;
+    width: 100%;
+    height: 27%;
+    opacity: 0.3;
+    background: url('../../assets/images/start_stream_17.png') no-repeat center center;
+    background-size: cover;
+    filter: blur(20px); /* Aplica el desenfoque a la imagen de fondo */
+    z-index: -1; /* Coloca el fondo desenfocado detrás de todo */
+    mask-image: linear-gradient(to bottom, transparent 20%, black 80%, transparent 100%); /* Máscara para opacar áreas superior e inferior */
+    -webkit-mask-image: linear-gradient(to bottom, transparent 25%, black 60%, transparent 80%);
+  }
+  .PrincipalContainer .fondo-blur-bottom {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 40%;
+    opacity: 0.05;
+    background: url('../../assets/images/fondo_1.jpeg') no-repeat center center;
+    background-size: cover;
+    z-index: -1; /* Coloca el fondo desenfocado detrás de todo */
+  }
+/*#############################################################           Carousel de Live*/
+.HeroCarousel{
+    padding-top: 60px;
+    padding-bottom: 27px;
+    width: 1100px;
+    height: fit-content;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+
+/*#############################################################           Carousel de Trending now*/
+.TrendingNowCarousel{
+    gap: 16px;
+    width: 1100px;
+    height: fit-content;
+    margin: auto;
+}
+.TrendingNowCarousel .TrendingNowCarouselItems{
+    gap: 24px;
+}
+
+/*#############################################################           POST de Klipwall*/
+.KlipwallPostContainer{
+    width: 720px;
+}
+.KlipwallPosts{
+    width: fit-content;
+    margin: auto;
+    padding-top: 53px;
+}
+.KlipwallPosts div .h1Font{
+    width: 500px;
+    
+    padding-bottom: 16px;
+}
+
+.Postscontainer{
+    height: fit-content;
+    margin-bottom: 60px;
+}
+.MakePostContainer{
+    width: 100%;
+    background: #292927;
+}
+.MakePost{
+    width: 100%;
+    height: fit-content;
+    gap: 16px;
+}
+.MakePost img{
+    margin-bottom: auto;
+}
+.MakePost .search-box{
+    background: #393936;
+    width: 100%;
+    border-radius: 8px;
+    height: fit-content;
+}
+.MakePost .search-box:hover{
+    background: #FFFFFF33;
+    
+}
+
+.MakePost .search-box textarea {
+    border: none; /* Elimina el borde predeterminado */
+    outline: none; /* Elimina el contorno de enfoque */
+    resize: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #E4E4E3;
+    background: transparent;
+    top: 0px;
+    width: 100%;
+    padding: 10px 16px;
+    box-sizing: border-box; /* Incluye padding y borde en el ancho y alto total */
+    overflow-y: hidden; /* Oculta cualquier desbordamiento vertical */
+    min-height: 50px; /* Altura mínima inicial */
+}
+.MakePostContainer .post_options{
+    justify-content: space-between;
+}
+.MakePostContainer .post_options .post_options_media{
+    margin-left: 72px;
+    gap: 8px;
+    border: 1px solid #393936;
+    border-radius: 22px;
+    width: fit-content;
+    padding: 10px 16px;
+}
+
+.MakePostContainer .post_options p{
+    font-size: 16px;
+    color: #E4E4E3;
+    
+}
+
+.MakePostContainer .post_options img{
+    width: 18px;
+    height: 15px;
+}
+
+.MakePostContainer .post_options .post_type{
+    background: #393936;
+    padding: 8px 16px;
+    border-radius: 33px;
+    justify-content: space-between;
+    width: 168px;
+}
+.MakePostContainer .post_options .post_BTN{
+    background: #1ED760;
+    padding: 8px 16px;
+    border-radius: 33px;
+    justify-content: space-between;
+    width: fit-content;
+}
+.MakePostContainer .post_options .post_BTN p{
+    color: #042F16;
+    font-weight: 700;
+
+}
+.search-box .emojis-container{
+    justify-content: flex-end;
+    padding-right: 16px;
+    padding-bottom: 8px;
+}
+.search-box .emojis-container img{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 100px;
+}
+.search-box .emojis-container img:hover{
+    background: #FFFFFF59;
+}
+
+.Container-posts{
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.Container-posts::before, .Container-posts::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.KlipwallPostContainer{
+    gap: 16px;           
+}
+
+.top-five-chart{
+    width: 350px;
+    height: fit-content;
+    background: #292927;
+    position: sticky;
+    top: 80px; 
+    margin-top: 32px;
+    padding-bottom: 40px!important;
+}
+
+.top-five-chart div p{
+    font-size: 16px;
+}
+
+.PostTabs{
+    width: 50%!important;
+    gap: 16px;
+}
+

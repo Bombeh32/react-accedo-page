@@ -1,0 +1,60 @@
+/*####################################################################### POST-HEADER*/
+.Single-post-container{
+    width: 100%;
+    padding: 16px;
+    background: #292927;
+    margin-bottom: 16px;
+    border-radius: 16px;
+}
+.profile-header{
+    justify-content: space-between;
+}
+.profile-header-left{
+    gap: 16px;
+}
+.profile-header-left .profile_pic_image{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+.profile-header-left div{
+    gap: 8px;
+}
+.profile-header-left div img{
+    width: 16px;
+    height: 16px;
+}
+/*####################################################################### POST-Content*/
+
+.post-content{
+    gap: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+/*####################################################################### POST-Footer*/
+.post-footer{
+    border-top: 2px solid #393936;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+.post-footer div{
+    width: 33.3%;
+    padding: 8px;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 22px;
+}
+.post-footer div:hover{
+    background: #FFFFFF33;
+    cursor: pointer;
+}
+.post-footer div img{
+    width: 24px;
+    height: 24px;
+}
+.post-footer div p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #E4E4E3;
+}

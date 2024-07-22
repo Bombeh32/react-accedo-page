@@ -1,0 +1,15 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M25.06,40.84L12.42,40.84C6.1,40.84 4,36.64 4,32.42L4,15.58C4,9.26 6.1,7.16 12.42,7.16L25.06,7.16C31.38,7.16 33.48,9.26 33.48,15.58L33.48,32.42C33.48,38.74 31.36,40.84 25.06,40.84Z" fill="url(#pf_0_7361_108732)"/>
+<path d="M39.04,34.2L33.48,30.3L33.48,17.68L39.04,13.78C41.76,11.88 44,13.04 44,16.38L44,31.62C44,34.96 41.76,36.12 39.04,34.2Z" fill="url(#pf_0_7361_108733)"/>
+<circle cx="23" cy="19" r="3" fill="#FFFFFF"/>
+<defs>
+<linearGradient id="pf_0_7361_108732" x1="18.74" y1="7.16" x2="18.74" y2="40.84" gradientUnits="userSpaceOnUse">
+<stop stop-color="#55A0FF"/>
+<stop offset="1" stop-color="#006DF5"/>
+</linearGradient>
+<linearGradient id="pf_0_7361_108733" x1="38.74" y1="12.867" x2="38.74" y2="35.127" gradientUnits="userSpaceOnUse">
+<stop stop-color="#55A0FF"/>
+<stop offset="1" stop-color="#006DF5"/>
+</linearGradient>
+</defs>
+</svg>

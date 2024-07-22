@@ -1,0 +1,47 @@
+/*################################################# CarouselSettings*/
+.TrendingNowComp{
+    padding: 8px;
+    border-radius: 16px;
+}
+.TrendingNowComp:hover{
+    background: #333331;
+}
+.TrendingNowComp .TitleContainer{
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+.TrendingNowComp .TitleContainer h1{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.TrendingNowComp .ImgContainer{
+    border-radius: 8px;
+    width: 100%;
+    height: 0; /* Altura inicial 0 para el truco de padding */
+    padding-bottom: 56%; /* Mantener la relación de aspecto (56% de width) */
+    position: relative; /* Importante para el posicionamiento absoluto */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que se desborde */
+}
+
+.TrendingNowComp .ImgContainer img{
+    width: 100%;
+    height: auto; /* Ajusta automáticamente la altura proporcionalmente */
+    position: absolute; /* Posicionamiento absoluto para ajustarse al padding */
+    top: 0; /* Asegura que la imagen se alinee en la parte superior */
+    left: 0; /* Asegura que la imagen se alinee a la izquierda */
+}
+.TrendingNowComp .categories-list-options{
+    align-items: center;
+    justify-content: space-between;
+}
+.TrendingNowComp .categories-list-options .categories-list{
+    gap: 3px;
+}
+.TrendingNowComp .categories-list-options .categories-list p{
+    font-size: 8px;
+}

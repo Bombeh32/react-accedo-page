@@ -1,0 +1,6 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M9,10L37,10L37,6L9,6L9,10ZM37,10C38.105,10 39,10.895 39,12L43,12C43,8.686 40.314,6 37,6L37,10ZM39,12L39,40L43,40L43,12L39,12ZM39,40C39,41.105 38.105,42 37,42L37,46C40.314,46 43,43.314 43,40L39,40ZM37,42L9,42L9,46L37,46L37,42ZM9,42C7.895,42 7,41.105 7,40L3,40C3,43.314 5.686,46 9,46L9,42ZM7,40L7,12L3,12L3,40L7,40ZM7,12C7,10.895 7.895,10 9,10L9,6C5.686,6 3,8.686 3,12L7,12Z" fill="#A7A6A1"/>
+<line x1="29" y1="4" x2="29" y2="12" stroke="#A7A6A1" stroke-width="2" stroke-miterlimit="3.999327" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="13" y1="4" x2="13" y2="12" stroke="#A7A6A1" stroke-width="2" stroke-miterlimit="3.999327" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="5" y1="18" x2="41" y2="18" stroke="#A7A6A1" stroke-width="2" stroke-miterlimit="3.999327" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,36 @@
+.top5Chart{
+    width: 100%;
+}
+.top5Chart .top5Container{
+    gap: 8px;
+}
+.top5Chart h1{
+    margin: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #1ED760;
+}
+.top5Chart .top5Container div{
+    width: 100%;
+    justify-content: space-between;
+}
+.top5Chart .top5Container div div{
+    gap: 8px;
+    width: fit-content;
+}
+.top5Chart .top5Container div .pic h2{
+    font-size: 16px;
+}
+.top5Chart .top5Container div .pic p{
+    font-size: 13px;
+}
+.top5Chart .top5Container div .pic img{
+    width: 30px;
+    border-radius: 100px;
+}
+.top5Chart .top5Container div .star img{
+    width: 24px;
+}
+.top5Chart .top5Container div .star h2{
+    color: #1ED760;
+}

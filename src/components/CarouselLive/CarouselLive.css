@@ -1,0 +1,65 @@
+
+.carouselcontainer{
+    width: 100%;
+    height: 500px;
+    gap: 24px;
+}
+.carouselcontainer .profile-pic{
+    margin-left: 20px;
+    width: fit-content;
+    height: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: auto;
+    padding: 20px;
+    border-radius: 16px;
+}
+.carouselcontainer .profile-pic:hover{
+    background: #333331;
+}
+.carouselcontainer .profile-pic .profile-pic-container{
+    width: 102px;
+}
+.profileContour{
+    justify-content: center;
+}
+.carouselcontainer .profile-pic .profile-pic-container img{
+    width: 100%;
+    height: calc(width);
+    border-radius: 100px;
+    background: #1D1D1B;
+    margin: auto;
+}
+.profile-pic-artist-info{
+    margin-top: 8px;
+    justify-content: center;
+    gap: 4px;
+}
+.profile-pic-artist-info img{
+    width: 16px;
+}
+.profile-pic-artist-info p{
+    font-size: 16px;
+}
+.carousel-pic{
+    width: 908px;
+}
+.carousel-pic img{
+    width: 100%;
+    border-radius: 16px;
+}
+.LiveContainerProfilePic{
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 33px;
+    background: #E72458;
+    position: fixed; 
+    z-index: 100;
+    padding: 5px 12px;
+    
+}
+.LiveContainerProfilePic p{
+    font-size: 12px;
+} 
+
